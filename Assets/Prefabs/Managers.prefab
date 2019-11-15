@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6650994871975211392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6650994871975211398}
+  - component: {fileID: 6650994871975211399}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6650994871975211398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6650994871975211392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6650994871975211399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6650994871975211392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904937bd95b60c74db46c86342f918ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointContainer: {fileID: 0}
+  playerCar: {fileID: 0}
+  aiCars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  aiDistanceToCover: 1
+  respawnDelay: 5
+  requiredLaps: 3
+  startRaceImage: {fileID: 2800000, guid: 20d9b0e5b092d024cb447d490e252852, type: 3}
+  num1Image: {fileID: 2800000, guid: 4c341b9fb081ac745b624d3787146d29, type: 3}
+  num2Image: {fileID: 2800000, guid: 728b20e452f61bc429adbeb887e7b1d2, type: 3}
+  num3Image: {fileID: 2800000, guid: 65d4952613f531d4b95d924e8199eb74, type: 3}
